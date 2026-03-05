@@ -1,4 +1,5 @@
 import React from "react"
+
 export const Logo = ({ className = "w-12 h-12", showText = false, lightText = false }: { className?: string, showText?: boolean, lightText?: boolean }) => (
   <div className="flex items-center gap-3">
     <img 
