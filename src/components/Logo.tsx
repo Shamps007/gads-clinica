@@ -4,8 +4,7 @@ export const Logo = ({ className = "w-12 h-12", showText = false, lightText = fa
     <img 
       src="/logo-gads.png" 
       alt="GADS Logo" 
-      className={`${className} object-contain brightness-110`}
-      referrerPolicy="no-referrer"
+      className={`${className} object-contain block`}
     />
     {showText && (
       <div className="flex flex-col">
