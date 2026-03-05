@@ -1,10 +1,8 @@
 import React from "react"
-import gadsLogo from "../gads.png"
-
 export const Logo = ({ className = "w-12 h-12", showText = false, lightText = false }: { className?: string, showText?: boolean, lightText?: boolean }) => (
   <div className="flex items-center gap-3">
     <img 
-      src={gadsLogo} 
+      src="/logo-gads.png" 
       alt="GADS Logo" 
       className={`${className} object-contain brightness-110`}
       referrerPolicy="no-referrer"
