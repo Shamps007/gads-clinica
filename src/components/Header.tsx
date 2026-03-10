@@ -17,11 +17,11 @@ export function Header() {
   return (
     <header className="fixed top-4 left-0 right-0 z-50 px-4 md:px-8 pointer-events-none">
       <div className="max-w-7xl mx-auto pointer-events-auto">
-        <div className="bg-black/60 backdrop-blur-3xl border border-white/10 rounded-2xl px-6 py-4 flex items-center justify-between shadow-[0_0_40px_rgba(0,0,0,0.5)]">
+        <div className="bg-black/60 backdrop-blur-3xl border border-white/10 rounded-2xl px-4 py-3 md:px-6 md:py-4 flex items-center justify-between shadow-[0_0_40px_rgba(0,0,0,0.5)]">
           
           {/* Logo */}
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <Logo className="w-64 h-24" />
+            <Logo className="w-32 h-12 md:w-64 md:h-24" />
           </div>
 
           {/* Desktop Menu */}

@@ -101,21 +101,6 @@ export function Footer() {
                   Rodovia Dr. Antônio Luiz Moura Gonzaga, 3339 - Rio Tavares, Florianópolis - SC, 88048-301
                 </p>
               </div>
-              
-              {/* Stylized Map Inset */}
-              <div className="w-full h-32 rounded-2xl bg-black border border-white/10 overflow-hidden relative shadow-inner group cursor-pointer">
-                <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/floripa/400/200')] bg-cover bg-center grayscale opacity-20 group-hover:grayscale-0 group-hover:opacity-60 transition-all duration-700" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="relative">
-                    <div className="w-4 h-4 bg-[#39FF14] rounded-full shadow-[0_0_15px_#39FF14] animate-bounce" />
-                    <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-2 h-1 bg-white/20 rounded-full blur-[2px]" />
-                  </div>
-                </div>
-                <div className="absolute bottom-2 left-3 bg-black/90 backdrop-blur-md px-2 py-1 rounded-lg text-[9px] font-black uppercase tracking-tighter text-white border border-white/10">
-                  Rio Tavares, Floripa
-                </div>
-              </div>
             </div>
           </div>
 
